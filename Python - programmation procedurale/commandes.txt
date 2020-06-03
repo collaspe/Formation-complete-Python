@@ -1,0 +1,2 @@
+Dans visual studio code : 
+- Executer son code python rapidement : Maj + Entrée
