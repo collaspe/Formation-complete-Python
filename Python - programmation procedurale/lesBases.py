@@ -14,7 +14,7 @@ Convertir string en int
 
 a = 5
 b = "10"
-b = int(b) """ Il faut s'assurer de bien mettre la fonction de conversion dans la variable (ici la variable est b) """
+b = int(b) #Il faut s'assurer de bien mettre la fonction de conversion dans la variable (ici la variable est b)
 print (a + b)
 
 
@@ -23,17 +23,17 @@ Afficher le type d'une variable
 """
 
 a = "10"
-print(type(a)) """ fonction type pour savoir le type de variable """
+print(type(a)) #fonction type pour savoir le type de variable
 
 
 """
 La concaténation
 """
 
-""" On ne peut pas concatener du texte avec des nombres, donc il faut convertir le nombre en texte pour de l'affichage """
+#On ne peut pas concatener du texte avec des nombres, donc il faut convertir le nombre en texte pour de l'affichage
 print ("Vous avez le nombre " + str(5))
 
-""" f-string (a partir de la version 3.6 de python) -> permet d'afficher les variables sans les convertir, donc f-string à utiliser tout le temps !On peut effectuer les calculs dans un f-string """
+#f-string (a partir de la version 3.6 de python) -> permet d'afficher les variables sans les convertir, donc f-string à utiliser tout le temps !On peut effectuer les calculs dans un f-string
 prenom = "Paul"
 f"bonjour {prenom} !"
 
@@ -41,9 +41,9 @@ a = 5
 b = 10
 f"La multiplication de {a} par {b} est égale à {a * b}"
 
-""" concatenation avant la version 3.6 de python """
+#concatenation avant la version 3.6 de python
 nombre = 5
-"Le nombre est égal à {}".format(nombre) """ resultat -> Le nombre est égal à 5 """
+"Le nombre est égal à {}".format(nombre) #resultat -> Le nombre est égal à 5
 "Les nombres sont égaux à {} et {}".format(5, 10)
 
 
