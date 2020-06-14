@@ -3,4 +3,4 @@ Formation complète afin d'apprendre le langage Python. Lien : https://www.udemy
 
 
 A PRENDRE EN COMPTE :
-Ces fichiers ont été développés sous Linux MINT. Il faudra prendre soin à modifier les chemins d'accès dans les lignes de code pour la gestion de fichiers.
+Ces fichiers ont été développés sous Linux MINT. Il faudra prendre soin de modifier les chemins d'accès dans les lignes de code pour la gestion de fichiers.
